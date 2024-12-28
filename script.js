@@ -1,9 +1,8 @@
 const toggleCheckbox = document.getElementById('switch');
 
-const contentOne = document.getElementById('burner-flame');
+const contentOne = document.getElementById('burner_flame');
 
-
-
+ let CheckboxOn = false
 
 toggleCheckbox.addEventListener('change', () => {
 
@@ -17,7 +16,6 @@ toggleCheckbox.addEventListener('change', () => {
 
     contentOne.style.display = 'none';
 
-   
 
   }
 });
