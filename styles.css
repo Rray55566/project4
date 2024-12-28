@@ -1,8 +1,7 @@
-/* General Styling */
+
 body {
     margin: 0;
     padding: 0;
-    
 }
 
 .container {
@@ -19,13 +18,12 @@ body {
     width: 300px;
 }
 
-/* Pan Styling */
 .pan img {
     width: 96%;
-    height: auto;
-    display: block;
+    /* height: auto;
+    display: block; */
    padding-left: 86px;
-   margin-bottom: -161px;
+   margin-bottom: -80px;
    padding-top: 160px;
    background:none;
    
@@ -57,12 +55,14 @@ body {
     align-items: center;
     margin-bottom: 10px;
     margin-left: 119px;
+    display: none;
 }
 
 .flame {
     position: absolute;
-    bottom: -49px;
-    margin-left: -15px;
+    /* display: none; */
+    bottom: -63px;
+    margin-left: 29px;
     /*width: 80px;
     height: 20px;*/
     border-radius: 50%;
@@ -95,7 +95,7 @@ body {
     }
 } 
 
-#switch {
+.switch {
     position: relative;
     display: inline-block;
     width: 60px;
@@ -103,7 +103,7 @@ body {
     margin-left: 730px;
   }
   
-  #switch input { 
+  .switch input { 
     opacity: 0;
     width: 0;
     height: 0;
@@ -154,3 +154,6 @@ body {
   .slider.round:before {
     border-radius: 50%;
   }
+
+
+  
