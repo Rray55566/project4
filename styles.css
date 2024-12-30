@@ -71,7 +71,7 @@ body {
 }
 
 .small-flame {
-    width: 30px;
+    width: 57px;
     height: 10px;
     background: radial-gradient(circle, rgba(255, 215, 0, 1) 50%, rgba(255, 69, 0, 1) 90%);
     animation-duration: 3s;
@@ -155,5 +155,33 @@ body {
     border-radius: 50%;
   }
 
+
+  .tea {
+    position: absolute;
+    top: 93%;
+    left: 56%;
+    width: 80px;
+    height: 20px;
+    background: #bf8445;
+    opacity: 0;
+    border-radius: 50%;
+}
+
+.tea.boiling {
+    animation: boil 3s infinite;
+    opacity: 0.8;
+}
+
+@keyframes boil {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
   
